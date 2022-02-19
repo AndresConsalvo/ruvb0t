@@ -35,7 +35,12 @@ if __name__ == "__main__":
   print('AQUI')
   os.system("echo $HOME")
   os.system("echo $PATH")
-  os.system("grep ffmpeg")
+  os.system("$\{HOME\}/vendor/ffmpeg")
+  os.system("echo $\{HOME\}/vendor/ffmpeg")
+  os.system("ls /tm334fac0439a123c6a0c1136/vendor/")
+  os.system("echo ls /tm334fac0439a123c6a0c1136/vendor/")
+  
+
 
   
   @client.event
