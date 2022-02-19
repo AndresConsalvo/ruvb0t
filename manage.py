@@ -37,8 +37,8 @@ if __name__ == "__main__":
   os.system("echo $PATH")
   os.system("$\{HOME\}/vendor/ffmpeg")
   os.system("echo $\{HOME\}/vendor/ffmpeg")
-  os.system("ls /tm334fac0439a123c6a0c1136/vendor/")
-  os.system("echo ls /tm334fac0439a123c6a0c1136/vendor/")
+  os.system("ls tmp/codon/tmp/buildpacks/0f40890b54a617ec2334fac0439a123c6a0c1136/vendor/")
+  os.system("echo ls tmp/codon/tmp/buildpacks/0f40890b54a617ec2334fac0439a123c6a0c1136/vendor/")
   
 
 
